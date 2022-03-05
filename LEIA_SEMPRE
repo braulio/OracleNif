@@ -1,0 +1,13 @@
+PARA TESTAR VÁ PARA A PASTA LIB E COMPILE O ORACLE_NIF.EX.
+
+
+cd lib
+iex
+c "oracle_nif.ex"
+
+Após compilar, podemos chamar o funções.
+
+iex> OracleNif.somar(1, 3)
+4
+
+- O ideal seria copiar o libodpic.so para /priv
